@@ -1,34 +1,69 @@
-Python 3.9.7 (tags/v3.9.7:1016ef3, Aug 30 2021, 20:19:38) [MSC v.1929 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> a = 10
->>> print (a)
-10
->>> type(a)
-<class 'int'>
->>> b = 2/3
->>> print (b)
-0.6666666666666666
->>> type (b)
-<class 'float'>
->>> a = 2
->>> b = 3
->>> c = 6
->>> print ( a + b + c )
-11
->>> d =3**2
->>> print (d)
-9
->>> x = 20/5
->>> print (x)
-4.0
->>> #6 questão F = C∗(9.0/5.0)+32.0
->>> C = 1
->>> d = (9.0/5.0) + 32.0
->>> print (C * d)
-33.8
->>> # 7 questão C = 5.0 ∗ (F − 32.0)/9.0
->>> f = 41
->>> e = 5.0 * ((f -32.0)/9.0)
->>> print (e)
-5.0
->>> 
+'''
+7. Leia uma temperatura em graus Fahrenheit e apresente-a convertida em graus Celsius.
+A formula de conversão e: C = 5.0 ∗ (F − 32.0)/9.0, sendo C a temperatura em Celsius
+e F a temperatura em Fahrenheit.
+'''
+print("Questão 7")
+print("****************************************************")
+print('Conversor de temperatura de Fahrenheit para Celsius!')
+print("****************************************************")
+
+
+f = float(input(" Digite a temperatura em graus Fahrenheit: "))
+e = float(('%.2f' %(5.0 *((f - 32.0)/9.0))))
+print("A temperatura em Celsius é {}Cº".format(e))
+print(type(e))
+
+"""
+8. Leia uma temperatura em graus Kelvin e apresente-a convertida em graus Celsius. A
+formula de conversão e: C = K − 273.15, sendo C a temperatura em Celsius e K a
+temperatura em Kelvin
+"""
+
+print("Questão 8")
+print("****************************************************")
+print('**Conversor de temperatura de Kelvin para Celsius!**')
+print("****************************************************")
+
+
+k = float(input(" Digite a temperatura em graus Kelvin: "))
+c = float(('%.2f' %(k - 273.15)))
+print("A temperatura em Celsius é {}Cº".format(c))
+print(type(c))
+
+"""
+9. Leia uma temperatura em graus Celsius e apresente-a convertida em graus Kelvin. A
+formula de conversão e: K = C + 273.15, sendo C a temperatura em Celsius e K a
+temperatura em Kelvin.
+
+"""
+
+print("Questão 9")
+print("****************************************************")
+print('**Conversor de temperatura de Celsius para Kelvin!**')
+print("****************************************************")
+
+
+c = float(input(" Digite a temperatura em graus Celsius: "))
+k = float(('%.2f' %(c + 273.15)))
+print("A temperatura em Kelvin é {}".format(k))
+print(type(k))
+
+"""
+10. Leia uma velocidade em km/h (quilometros por hora) e apresente-a convertida em m/s ˆ
+(metros por segundo). A formula de conversão e:  M = K/3.6, sendo K a velocidade em
+km/h e M em m/s
+"""
+
+
+print("Questão 10")
+print("****************************************************")
+print('******Conversor de velocidade km/h para m/s ********')
+print("****************************************************")
+
+
+k = float(input(" Digite a velocidade em km/h: "))
+m = float(('%.2f' %(k/3.6)))
+print("A velocidade é {} m/s".format(m))
+print(type(m))
+
