@@ -72,5 +72,5 @@ print("****************************************************")
 
 l = float(input(" Digite o valor da massa em libras: "))
 k = float('%.2f' %(l *0.45 ))
-print("O valor da massa em quilogramas é {}".format(l))
-print(type(l))
+print("O valor da massa em quilogramas é {}".format(k))
+print(type(k))
