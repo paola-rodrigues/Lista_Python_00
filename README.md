@@ -1,2 +1,2 @@
-# Lista_Python_00
+# Lista Python 01
  Exercício resolvido 
