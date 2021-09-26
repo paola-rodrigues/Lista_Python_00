@@ -51,11 +51,23 @@ print(type(total_dolar))
 31.Leia um número inteiro e imprima o seu antecessor e o seu sucessor.
 '''
 
+n = int(input("Digite um número: "))
+print("Analisando o valor {}, seu antecessor é {} e o sucessor é {}".format(n, (n-1), (n+1)))
+
 '''
 32.Leia um número inteiro e imprima a soma do sucessor de seu triplo com o antecessor de 
 seu dobro
 '''
+n = int(input("Digite um número: "))
+soma = ((n+1)*3)+ ((n-1)*2)
+print("Analisando o valor {}, a soma do sucessor de seu triplo com o antecessor de seu dobro é {}".format(n, soma))
+
 
 '''
 33. Leia o tamanho do lado de um quadrado e imprima como resultado a sua area.
+area = base * base ou área = base²
 '''
+lado = float(input(" Digite o lado de um quadrado: "))
+total_area = lado**2
+print(" A área é {}".format(total_area))    
+
