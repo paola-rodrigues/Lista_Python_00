@@ -2,4 +2,4 @@
 
  Exercícios: variaveis e expressões
  Material enviado pelo professor, para resolução das questões
- Resolução
+
