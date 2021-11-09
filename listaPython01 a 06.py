@@ -28,7 +28,7 @@ print("Resultado do quadrado desse número é {}".format(total))
 
 print ("5º Leia um número real e imprima a quinta parte deste número.") 
 
-x = 20/5
+num = 20/5
 print(x)
 print(type(x))
 
